@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family: Arial, sans-serif; margin: 0; padding: 0; overflow-x: hidden;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #2d2d90;
+  color: white;
+  padding: 20px;
+}
+
+.header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.user {
+  font-weight: bold;
+}
+
+.course-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+
+.course-header {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .course-text {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    max-width: 600px; 
+  }
+
+.course-header button {
+  background-color: #2d2d90;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+.course-header button:hover {
+  background-color: #1a1a60;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.course-info h3 {
+  margin-bottom: 15px;
+}
+
+.course-meta {
+  margin-top: 20px;
+}
+
+.course-image img {
+    width: 300px;
+    border-radius: 5px;
+    height: auto;
+    max-width: 100%;
+  }
+/* Адаптивность */
+@media (max-width: 992px) {
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-header {
+    text-align: left;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 600px) {
+  .course-header h2 {
+    font-size: 22px;
+  }
+
+  .course-header button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+.button { background-color: rgb(103, 189, 246); color: white; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 5px; margin-top: 10px; }
+.button:hover{
+    background-color: rgb(51, 152, 219);
+}

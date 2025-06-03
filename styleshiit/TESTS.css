@@ -1,0 +1,48 @@
+.progress-container {
+      width: 100%;
+      background-color: #ddd;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .progress-bar {
+      width: 0%;
+      height: 25px;
+      background-color: #4CAF50;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .question-container {
+      background-color: rgb(234, 236, 238);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .question-container p {
+      margin: 0;
+    }
+
+    .question-container input {
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: rgb(103, 189, 246);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color:  rgb(61, 170, 243);
+    }

@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f9fa;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container p {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.btn-blue {
+background-color: rgb(103, 189, 246);
+color: white;
+border: none;
+}
+
+.btn-blue:hover {
+background-color: rgb(75, 180, 249); 
+}
+
+.form-box h2 {
+  margin-bottom: 1rem;
+}
+.footer {
+text-align: left;
+padding: 50px;
+background: rgb(103, 189, 246);
+color: white;
+margin-top: 50px;
+}

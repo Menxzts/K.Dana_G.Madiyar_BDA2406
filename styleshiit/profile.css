@@ -1,0 +1,95 @@
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* убираем горизонтальный скролл */
+}
+
+.profile-container {
+  max-width: 700px;
+  margin: 3rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-icon {
+  font-size: 80px;
+  color: rgb(103, 189, 246);
+  margin-bottom: 1rem;
+}
+
+.btn-blue {
+  background-color: rgb(103, 189, 246);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: rgb(75, 180, 249);
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: rgb(103, 189, 246);
+  color: white;
+  margin-top: 50px;
+  width: 100%;
+}
+
+#admin-panel {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+#admin-panel h3 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#admin-panel .form-box {
+  background: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#admin-panel .form-box h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+#user-list {
+  margin-top: 15px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .profile-container,
+  #admin-panel {
+    padding: 1.2rem;
+  }
+
+  .profile-icon {
+    font-size: 60px;
+  }
+
+  .btn-blue {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}

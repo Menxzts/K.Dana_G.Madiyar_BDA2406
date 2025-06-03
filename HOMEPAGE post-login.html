@@ -4,66 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-Danalyq</title>
-    <link rel="stylesheet" type="text/css" href="styleshiit/styles.css">
+    <link rel="stylesheet"  href="styleshiit/styles.css" >
     <title> e-Danalyq</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script src ="javas/MainJs.js"></script>
+
+    <script src="javas/MainJs.js"></script>
+    
+    
     
 
-  
-
-
-  
 </head>
 
 <body>
     <div class="logo">E-Danalyq</div>
     <nav>
         <a href="#courses">Course Catalogue</a>
-        <a href="login.html">Login</a>
+        <a href="my-courses.html">User Courses</a>
+        <a href="profile.html" class="my-icon"><i class="fas fa-user-circle"></i></a>
+
     </nav>
     
     <div class="header">
         <h1>Welcome to E-Danalyq</h1>
     </div>
     
-   <button id="chatButton">💬</button>
-
-
-<div id="chatWindow">
-  <div id="chatMessages"></div>
-  <div id="chatInput">
-    <textarea id="userMessage" rows="2" placeholder="Write a question..."></textarea>
-    <button onclick="sendMessage()">→</button>
-  </div>
-</div>
-    
+   
     <div class="catalogue">
         <h2 id="courses">Course Catalog</h2>
         <div class="course-container">
             <div class="courseWEB">
-                <img src ='IMAGES/WEBcourse.webp' loading="lazy">
+                <img src ='IMAGES/WEBcourse.webp'>
                 <h3>Web Technologies</h3>
                 <a href="courseWEB.html" class="button">More Info</a>
             </div>
             <div class="courseADS">
-                <img src ="IMAGES/ADScourse.webp" loading="lazy">
+                <img src ="IMAGES/ADScourse.webp">
                 <h3>Algorithms and Data Structures</h3>
                 <a href="course_algorithms.html" class="button">More Info</a>
             </div>
             <div class="coursePolitology">
-                <img src = "IMAGES/Politologycourse.webp" loading="lazy">
+                <img src = "IMAGES/Politologycourse.webp">
                 <h3>Political Studies</h3>
                 <a href="course_politics.html" class="button">More Info</a>
             </div>
             <div class="coursePROTO">
-                <img src = "IMAGES/ITP.webp" loading="lazy">
+                <img src = "IMAGES/ITP.webp">
                 <h3>Introduction to Programming</h3>
                 <a href="course_politics.html" class="button">More Info</a>
             </div>
         </div>
     </div>
-    
     <div class="faq">
         <h2>Frequently Asked Questions</h2>
         <div class = "questions">
@@ -81,6 +72,8 @@
         <p>e-Danalyq is a leading education platform in Kazakhstan.</p>
         &copy; 2025 e-Danalyq. All rights reserved.</div>
 
-<script src="javas/MainJs.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+
 </body>
 </html>

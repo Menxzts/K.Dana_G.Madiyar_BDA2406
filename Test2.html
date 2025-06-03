@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <title>Quiz: What is Frontend?</title>
+  <script src="javas/TESTS.js"></script>
+  <style src="styleshiit/TESTS.css">
+    
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light" >
+        <div class="container-fluid">
+          <button class="btn btn-outline-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+              <i class="fas fa-bars"></i>
+            </button>
+          <a class="navbar-brand" href="HOMEPAGE post-login.html">
+            <i class="fas fa-graduation-cap"></i> e-Danalyq
+          </a>
+      
+          
+        </div>
+      </nav>
+      
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+        <div class="offcanvas-header " style="background-color: rgb(103, 189, 246);">
+          <h5 class="offcanvas-title" id="sidebarLabel">Course Modules</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="list-unstyled">
+            <li><a href="WEBvideo1.html" class="nav-link">Module 1: Introduction to WEB</a></li>
+            <li><a href="WEBvideo2.html" class="nav-link">Моdule 2: HTML/CSS</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+<div class="container mt-4">
+<h1>Quiz: What is Frontend?</h1>
+
+<form id="quizForm">
+  <div class="question-container">
+    <p>1. What is Frontend?</p>
+    <input type="radio" name="q1" value="The part of a website that deals with the appearance and user interaction."> The part of a website that deals with the appearance and user interaction.<br>
+    <input type="radio" name="q1" value="The part of a website that deals with data storage."> The part of a website that deals with data storage.<br>
+    <input type="radio" name="q1" value="The part of a website that handles data processing on the server."> The part of a website that handles data processing on the server.<br>
+  </div>
+
+  <div class="question-container">
+    <p>2. Which programming languages are typically used in frontend development?</p>
+    <input type="radio" name="q2" value="HTML, CSS, JavaScript"> HTML, CSS, JavaScript<br>
+    <input type="radio" name="q2" value="Java, Python, SQL"> Java, Python, SQL<br>
+    <input type="radio" name="q2" value="C++, C#, Ruby"> C++, C#, Ruby<br>
+  </div>
+
+  <div class="question-container">
+    <p>3. Which tool is commonly used for frontend testing and optimization?</p>
+    <input type="radio" name="q3" value="Chrome DevTools"> Chrome DevTools<br>
+    <input type="radio" name="q3" value="MySQL"> MySQL<br>
+    <input type="radio" name="q3" value="Visual Studio Code"> Visual Studio Code<br>
+  </div>
+
+  <div class="question-container">
+    <p>4. What is the purpose of CSS?</p>
+    <input type="radio" name="q4" value="To add styles and layout to a web page."> To add styles and layout to a web page.<br>
+    <input type="radio" name="q4" value="To process data on the server."> To process data on the server.<br>
+    <input type="radio" name="q4" value="To connect to a database."> To connect to a database.<br>
+  </div>
+
+  <button type="button" onclick="checkAnswer()">Check Answer</button>
+  <audio id="successSound" src="success.mp3"></audio>
+
+</form>
+</div>
+<p id="result"></p>
+
+
+<div class="d-flex justify-content-between mt-3" style="padding-top: 70px;">
+    
+        <a href="WEBvideo2.html" class="btn btn-lg text-white" style="background-color: rgb(103, 189, 246); border-color: rgb(103, 189, 246);">
+            Video <i class="fas fa-arrow-left"></i>
+          </a>
+    
+
+    
+    <a href="my-courses.html" class="btn btn-lg text-white" style="background-color: rgb(103, 189, 246); border-color: rgb(103, 189, 246);">
+      Go to next Module <i class="fas fa-arrow-right"></i>
+    </a>
+  
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
